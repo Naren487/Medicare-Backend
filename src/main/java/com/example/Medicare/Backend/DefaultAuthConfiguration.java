@@ -14,7 +14,7 @@ public class DefaultAuthConfiguration implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry myCorsRegistry){
              myCorsRegistry.addMapping("/**")
-            .allowedOrigins("http://54.235.225.55:80")  //frontend's link
+            .allowedOrigins("http://54.235.225.55:3000")  //frontend's link
             .allowedHeaders("*")
             .allowedMethods("GET","PUT")
             .allowCredentials(true)
